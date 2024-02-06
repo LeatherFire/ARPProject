@@ -1,4 +1,3 @@
-```
 # ARP Sniffer
 
 ## Introduction
@@ -15,15 +14,15 @@ ARP Sniffer is a Python script that allows users to discover IP and MAC addresse
 
 ## Usage
 1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/arp-sniffer.git
+   ```sh
+   git clone https://github.com/LeatherFire/ARPProject.git
    ```
 2. Navigate to the project directory:
-   ```
-   cd arp-sniffer
+   ```sh
+   cd ARPProject
    ```
 3. Run the script:
-   ```
+   ```sh
    python arp_sniffer.py -i <IP_ADDRESS> -m <MAC_ADDRESS> -t <TIMEOUT>
    ```
    Replace `<IP_ADDRESS>` with the target IP address, `<MAC_ADDRESS>` with the target MAC address, and `<TIMEOUT>` with the desired timeout duration (in seconds).
@@ -34,7 +33,7 @@ ARP Sniffer is a Python script that allows users to discover IP and MAC addresse
 - `-t, --timeout`: Set the timeout duration for ARP requests (default is 1 second).
 
 ## Example
-```
+```sh
 python arp_sniffer.py -i 192.168.1.1 -m 00:11:22:33:44:55 -t 2
 ```
 
@@ -43,6 +42,3 @@ This script is inspired by the need for network analysis and security auditing. 
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Bu README dosyası, projenin ne yaptığını, nasıl kullanılacağını ve gerekli olanları anlatırken aynı zamanda özellikleri, gereksinimleri ve örnek kullanımı da sunmaktadır.
